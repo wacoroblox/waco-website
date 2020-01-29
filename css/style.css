@@ -55,7 +55,7 @@ header a {
 }
 
 header li {
-  float: left;
+  /* float: left; */
   display: inline;
   padding: 0 20px 0 20px;
 }
@@ -74,11 +74,11 @@ header nav {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-  /* header nav {
-    text-align: left;
-  } */
+header nav {
+  text-align: center;
+}
 
+@media (min-width: 768px) {
   header nav ul {
     display: inline;
     padding-left: 1rem;
